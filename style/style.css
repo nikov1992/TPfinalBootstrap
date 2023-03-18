@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+
+@font-face {
+    font-family: 'titulo2';
+    src: url(../FUENTES/Golden\ Bloom\ Regular.ttf)
+}
+
+@font-face {
+    font-family: 'textoIcons';
+    src: url(./FUENTES_HN/Type\ Icons.ttf)
+}
+
+@font-face {
+    font-family: 'nutriciosa';
+    src: url(./FUENTES_HN/flashback\ Demo.ttf)
+}
+
+.HeadContainer{
+    display: grid;
+    grid-template-columns: 1fr 10fr 0.1fr;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(119, 4, 77);
+}
+
+.HeadContainer .logo figure img{
+    display: flex;
+    margin: 10px;
+    width: auto;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+.HeadContainer .linksHeader{
+    display: grid;
+    margin: 10px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 200%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-weight: bold;
+    color: #cf81ab;
+    font-family: 'Idealist Sans', sans-serif;
+}
+
+.HeadContainer .linksHeader .conoceme{
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeadContainer .linksRedes{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    display: grid;
+    width: auto;
+    gap: 15px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    font-family: 'textoIcons';
+}
+
+.HeadContainer .linksHeader .conoceme:hover{
+    transition: all 0.2s ease;
+    padding: 5px 10px;
+    background-color: #DE2889;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.HeadContainer .linksRedes a{
+    color: #DE2889;
+    text-decoration: none;
+
+}
+.body {
+    display: grid;
+    width: auto;
+    grid-template-columns: 10% 80% 0%;
+    grid-template-rows: 80% 10%;
+    align-items: center;
+    justify-items: center;
+}
+
+.body .rellenoInfo{
+    justify-content: center;
+    background-color: #96c29f;
+    line-height: 30px;
+
+}
+.body figure img{
+    border-radius: 20px;
+    margin-top: -40px;
+    height: 400px;
+}
+
+.body2{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/* ------------------SECTION CURPO---------------- */
+.titulo{
+    width: auto;
+    display: flex;
+    color: #DE2889;
+    font-family: 'titulo2';
+    font-size: 90PX;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.titulo img {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
+@media(max-width:1100px){
+    .HeadContainer{
+        transition: all 1.0s ease;
+        background-color: #DE2889;
+    }
+    .HeadContainer .linksHeader{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        align-content: center;
+        color: #ffff;
+    }
+    .HeadContainer .linksRedes a{ 
+        color: #ffff;
+    }
+}
+
+/*-----------------VERSION MOBILE!  */
+@media(width:390px){
+    .HeadContainer .logo figure img{
+        height: auto;
+        width: 65%;
+        border-radius: 10px;   
+        margin-left: 20%;
+    }
+    .HeadContainer{
+        transition: all 1.0s ease;
+        background-color: #DE2889;
+        grid-template-columns: 1fr 1fr 0.1fr;
+        gap: 20px;
+    }
+    .HeadContainer .linksHeader{
+        font-size: medium;
+        justify-items: left;
+        gap: 20px;
+        align-items: center;
+        align-content: center;
+        color: #ffff;
+    }
+    .HeadContainer .linksRedes{ 
+        color: #ffff;
+        display: none;
+        width: -1px;
+    }
+
+    .titulo{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        line-height: 40px;
+        font-size: 80px;
+        width: 390px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'nutriciosa';
+    }
+    .titulo img{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 60px;
+        height: 60px;
+        position: inherit;
+        margin-bottom: -40px;
+    }
+
+    .body{
+        display: grid;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 200px;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .body p{ 
+        background-color:#96c29f;
+        font-weight: bold;
+        color: #5a5c5b;
+        line-height: 25px;
+        font-family: 'titulo2' sans-serif;
+
+    }
+    .body figure img{
+        padding: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
