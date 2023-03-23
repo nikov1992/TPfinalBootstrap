@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'titulo2';
-    src: url(../FUENTES/Golden\ Bloom\ Regular.ttf)
+    src: url(../fonts/Golden\ Bloom\ Regular.ttf)
 }
 
 @font-face {
@@ -109,7 +109,6 @@
 }
 .body figure img{
     border-radius: 20px;
-    margin-top: -40px;
     height: 400px;
 }
 
@@ -130,7 +129,6 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
-    margin-top: 130px;
 }
 
 .titulo img {
