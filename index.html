@@ -7,6 +7,7 @@
     <title>SPNutricion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>    
 
 
 </head>
@@ -20,47 +21,34 @@
   </nav> -->
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="./imgs/logo.png" alt="Bootstrap" width="70" height="50">
-      
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+     <a class="navbar-brand" href="#">
+        <img src="./imgs/logo.png" alt="Bootstrap" width="70" height="50">
+     </a>
+
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+    <!-- enlaces -->
+    <div class="collapse navbar-collapse" id="opciones">   
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"></a>
+          <a class="nav-link" href="#">CONOCEME</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">link</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PRODUCTOS</a>
         </li>
-       
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACTO</a>
+        </li>            
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
-  </div>
-
-  
-
-</nav>
-  <!-- ---------------------------------- -->
+  </nav>
+<!-- ---------------------------------- -->
   <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
           <a class="navbar-brand" href="#">Soledad Peredo -Nutricion-</a>
@@ -108,17 +96,16 @@
 
         </div>
         <div class="body">
-            <p class="relleno"></p>
             <figure>
                 <img src="./imgs/foto1Hablando.jpg" alt="">
             </figure>
-            <p class="relleno"></p>
-            <p class="relleno"></p>
             <div>
                 <div class="rellenoInfo">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla non deleniti rem omnis veritatis ad praesentium eveniet dolor. Minima necessitatibus esse numquam labore.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae, aliquid vel rem magnam animi blanditiis, sed facere cum qui facilis placeat adipisci labore iure. Commodi quisquam tempora minima neque illum hic ea praesentium ut corrupti, vel sunt non atque recusandae voluptas possimus explicabo dignissimos, consectetur, repellat quis dolor. Numquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eligendi officia veniam iusto pariatur tenetur dicta fugiat reiciendis? Fugiat nobis at voluptas sit nostrum laudantium ut quod quam minima odit dolores illo labore aperiam libero molestiae laborum quasi ipsa, fuga exercitationem consectetur ducimus fugit est dolorum voluptatum. Quas, ipsam aliquid.
+                        <br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae, aliquid vel rem magnam animi blanditiis, sed facere cum qui facilis placeat adipisci labore iure. Commodi quisquam tempora minima neque illum hic ea praesentium ut corrupti, vel sunt non atque recusandae voluptas possimus explicabo dignissimos, consectetur, repellat quis dolor. Numquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br><br>
+                        Eaque eligendi officia veniam iusto pariatur tenetur dicta fugiat reiciendis? Fugiat nobis at voluptas sit nostrum laudantium ut quod quam minima odit dolores illo labore aperiam libero molestiae laborum quasi ipsa, fuga exercitationem consectetur ducimus fugit est dolorum voluptatum. Quas, ipsam aliquid.
                     </p>
                 </div>
                 <p class="relleno"></p>
