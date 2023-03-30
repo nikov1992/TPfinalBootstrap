@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SP Nutri</title>
-        <link rel="shortcut icon" href="./IMAGENES/logo.png" type="image/x-icon" />
-        <link rel="stylesheet" href="./Styles/style.css" />
-        <link rel="stylesheet" href="./Styles/ConocemeStyle.css">
-        <script
-          src="https://kit.fontawesome.com/eb496ab1a0.js"
-          crossorigin="anonymous"
-        ></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPNutricion</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../style/styleConoceme.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
 <body>
-    <header>
-        <div class="menu">
-          <figure>
-            <img src="./IMAGENES/logo.png" />
-          </figure>
-          <nav>
-            <ul>
-              <li><a href="./conoceme.html">Conoceme</a></li>
-              <li><a href="./consultorio.html">Consultorio</a></li>
-              <li><a href="#">Productos</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </nav>
-        </div>
-    </header>
+   <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="../imgs/logo.png" alt="Bootstrap" width="70" height="50" />
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#opciones"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--ENLACES DEL NAVBAR! -->
+      <div class="collapse navbar-collapse" id="opciones">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/conoceme.html">CONOCEME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/consultorio.html">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <section class="Contenido">
-        <div class="boxTexto">
-            <h3>
-                HOLA ! UN POCO MAS DE MI... 
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illo, minus dolorum eligendi harum iure officia animi nostrum a temporibus assumenda quidem cum quas optio impedit dolores vero praesentium quam possimus voluptas, similique facere ex quam ducimus saepe voluptatibus ratione perferendis. Repudiandae laudantium officiis saepe sint autem consectetur ut vitae quos fugiat aut delectus tempora eaque assumenda quia similique qui minus, voluptas ipsum. Ipsam magni quasi labore, velit veniam nemo quibusdam saepe nesciunt ratione quod ea molestias amet fugit tenetur cupiditate vel earum? Quasi!</p>
+
+        <div class="titulo">
+          <p class="SubTitulo1">CONOCE MAS SOBRE</p>
+          <p class="SubTitulo2"> Maria Soledad Peredo </p>
         </div>
-        <div class="boxImagen">
-            <img src="./IMAGENES/CONOCEME.JPG" alt="fotoConoceme">
+        
+        <div class="secction">
+          
+          
+          <div class="texto">
+            <p>Soledad es <strong>Nutricionista y Cocinera profesional</strong>, una apasionada del compartir en todo sentido y generar red, busca constantemente diferentes formas de comunicar y “hacer nutrición”. Creó Nutriciosa en el año 2017, entrando así en el mundo emprendedor a puro crecimiento.</p>
+            
+            <p>A través de sus redes sociales, <strong>&nbsp;<span style="text-decoration: underline;"><a href="https://instagram.com/nutrir.peques?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener">@Nutrir Peques, en instagram</a></strong> brinda recetas e información sobre nutrición y comida real para grandes y chicos. Es quien está detrás de cada proyecto y detalle de Nutriciosa. Autora del libro “Comida Real para toda la Familia” de Editoral Planeta, el cual podes encontrar en cualquier librería del país. Cuenta con experiencia y actualización en el área social y comunitaria, la educación alimentaria, la nutrición en la primera infancia y la alimentación basada en plantas.</p>
+            
+            <p><strong>Soledad es </strong><strong>embajadora de&nbsp;<span style="text-decoration: underline;"><a href="https://www.pilares.org.ar/" target="_blank" rel="noopener">Fundacion Pilares</a></span></strong>, Fundación en la cual trabajó por más de 4 años, en la Villa 21 24 como coordinadora del área de Nutrición, dando talleres de cocina saludable y atendiendo familias en pos de mejorar su estado nutricional y que aprendan a alimentarse mejor con los recursos que acceden.</p>
+            
+            <p><em>“Mi pasión es aprender cosas nuevas, ayudar, enseñar, conectarme con la gente y aprender de ella. Deseo poder transmitirles el mensaje de volver al mundo de la cocina desde lo práctico, sano y sostenible en el tiempo, apto para todo público, para grandes y chicos. La idea es poder incorporar hábitos saludables para toda la familia, todo esto a partir de concientizar y enseñar a alimentarse a base de alimentos de origen natural y poder llevar toda esa teoría a la práctica de cada casa”</em></p>
+          </div>
+          
+          <div class="box">
+              <img src="../imgs/CONOCEME.JPG" alt="fotoConoceme">
+          </div>
+          
+
         </div>
+
     </section>
     </div>  
 
-    <footer class="pie-pagina">
-        <div class="grupo-1">
-          <div class="box">
-            <figure>
-                <img src="./IMAGENES/FOTOFOOTER.png" alt="img de footer" />
-            </figure>
-          </div>
-  
-          <div class="box">
-            <h2>Soledad Peredo NUTRICION</h2>
-          </div>
-  
-          <div class="box">
-            <figure>
-                <img src="./IMAGENES/FOTOFOOTER.png" alt="img de footer" />
-            </figure>
-          </div>
-        </div>
-  
-        <div class="grupo-2">
-          <small
-            >&copy; 2023 <b> SP NUTRICION </b> -Todos los derechos
-            reservados</small
-          >
-        </div>
-      </footer>  
 </body>
 </html>
