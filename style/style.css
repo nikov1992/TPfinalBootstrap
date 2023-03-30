@@ -89,13 +89,6 @@
   color: #de2889;
   text-decoration: none;
 }
-/* .body {
-  display: grid;
-  width: auto;
-  grid-template-rows: 50% 50%;
-  align-items: center;
-  justify-items: center;
-} */
 
 .body {
   font-family: "Open Sans", sans-serif;
@@ -172,7 +165,7 @@
 }
 
 /*-----------------VERSION MOBILE!  */
-@media (min-width: 290px) {
+@media (max-width: 690px) {
   .HeadContainer .logo figure img {
     height: auto;
     width: 65%;
