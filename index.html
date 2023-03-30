@@ -1,129 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPNutricion</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-
-</head>
-
-<!-- <nav class="navbar bg-body-tertiary">
-    <div class="container">
+  <body>
+    <!-- NAVBAR! -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+        <img src="./imgs/logo.png" alt="Bootstrap" width="70" height="50" />
       </a>
-    </div>
-  </nav> -->
 
-<body>
-  <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
-     <a class="navbar-brand" href="#">
-        <img src="./imgs/logo.png" alt="Bootstrap" width="70" height="50">
-     </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#opciones"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!--ENLACES DEL NAVBAR! -->
+      <div class="collapse navbar-collapse" id="opciones">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONOCEME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <!-- enlaces -->
-    <div class="collapse navbar-collapse" id="opciones">   
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONOCEME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">PRODUCTOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONTACTO</a>
-        </li>            
-      </ul>
-    </div>
-  </nav>
-<!-- ---------------------------------- -->
-  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-          <a class="navbar-brand" href="#">Soledad Peredo -Nutricion-</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <!-- SECCION CENTRAL -->
+    <section>
+      <div class="titulo">
+        <img src="./imgs/flor.png" alt="flor" />
+        <p>SP Nutricion</p>
+        <img src="./imgs/flor.png" alt="flor" />
+      </div>
+
+      <div class="body2">
+        <figure>
+          <img src="./imgs/foto1Hablando.jpg" alt="" />
+        </figure>
+        <div>
+          <div class="rellenoInfo">
+            <div class="subtituloP">
+              <h8>
+                Nutriciosa es un emprendimiento creado por Maria Soledad Peredo,
+                nutricionista y cocinera profesional
+              </h8>
+            </div>
+            <p>
+              Tenemos como objetivo acompañar procesos, desde el respeto y
+              empatía con el otro, poder brindar educación en alimentación para
+              todas las edades con el fin de promover la salud integral. Hacemos
+              un abordaje de nutrición individual y/o familiar. Nos dedicamos a
+              acompañar en el “cómo hacerlo”, apostando a generar buenos hábitos
+              alimentarios y mejorar la calidad de vida, priorizando la relación
+              que tenemos con la comida y el propio cuerpo. Lejos de dietas y
+              restricciones, fomentamos la nutrición más allá del peso y la
+              presión social impuesta en nuestros cuerpos y acompañamos a quien
+              quiera y/o necesite cambiar u ordenar su alimentación, a base de
+              comida real.
+            </p>
           </div>
+          <p class="relleno"></p>
         </div>
-      </nav> -->
-
-      <!-- SECCION CENTRAL -->
-      <section>
-        <div class="titulo">
-            <img src="./imgs/flor.png" alt="flor">
-            <p>SP Nutricion</p>
-            <img src="./imgs/flor.png" alt="flor">
+      </div>
+     
+      <div class="pruebaGrid">
+        <div class="titulo2">
+          <p>Conoceme un poco mas</p>
         </div>
 
+        <div class="elemento1">
+          <p>Sole es Nutricionista y Cocinera profesional, una apasionada del compartir en todo sentido y generar red, busca constantemente diferentes formas de comunicar y “hacer nutrición”. Creó Nutriciosa en el año 2017, entrando así en el mundo emprendedor a <strong>puro crecimiento…</strong></p>
         </div>
-        <div class="body">
-            <figure>
-                <img src="./imgs/foto1Hablando.jpg" alt="">
-            </figure>
-            <div>
-                <div class="rellenoInfo">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque nulla non deleniti rem omnis veritatis ad praesentium eveniet dolor. Minima necessitatibus esse numquam labore.
-                        <br><br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae, aliquid vel rem magnam animi blanditiis, sed facere cum qui facilis placeat adipisci labore iure. Commodi quisquam tempora minima neque illum hic ea praesentium ut corrupti, vel sunt non atque recusandae voluptas possimus explicabo dignissimos, consectetur, repellat quis dolor. Numquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br><br>
-                        Eaque eligendi officia veniam iusto pariatur tenetur dicta fugiat reiciendis? Fugiat nobis at voluptas sit nostrum laudantium ut quod quam minima odit dolores illo labore aperiam libero molestiae laborum quasi ipsa, fuga exercitationem consectetur ducimus fugit est dolorum voluptatum. Quas, ipsam aliquid.
-                    </p>
-                </div>
-                <p class="relleno"></p>
-            </div>
+        <div class="elemento2">
+          <figure>
+            <img src="../TPfinalBootstrap/imgs/foto2.jpg" alt="">
+          </figure>
         </div>
-<!-- 
-        <div class="body2">
+      </div>
 
-            <div class="descripcion">
-                <P>SOBRE NUTRICIOSA!</P>
-                <P>Un poco mas sobre mi</P>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque veniam laudantium at error optio numquam exercitationem sequi ex reprehenderit neque recusandae placeat unde assumenda, temporibus ut praesentium ipsum! Neque, tenetur quam! Quidem eum non ipsum provident, sunt iste voluptatem asperiores assumenda accusantium exercitationem earum sequi eaque fuga in similique quas placeat quisquam sit nam esse, excepturi corrupti maiores? Officia explicabo ullam reprehenderit cum labore aspernatur porro optio quo repellat ipsa obcaecati delectus veritatis laboriosam, culpa, est consequuntur quaerat facere cupiditate praesentium distinctio magnam repellendus aperiam tempora sint. Repellendus, dignissimos? Fuga, odio aperiam voluptate ea nostrum quaerat ad deserunt ipsam inventore.</p>
-            </div>
-            <figure>
-                <img src="./imgs/foto2.jpg" alt="sonrisita">
-            </figure>
-        </div> -->
+      <div class="Conteiner4">
+        <div class="cabecera">
+          <p>Mis serivicios</p>
+        </div>
+        <div class="img-comida">
+          <img src="./imgs/comida.jpg" alt="comida">
+        </div>
+        <div class="subtitulo">
+          <strong>CONSULTORIO</strong>
+        </div>
+        <div class="desarrollo">
+          <p>Asesoramiento personalizado para niños y adultos o consulta familiar, a cargo de un equipo de profesionales con diferentes especialidades lorem200</p>
+        </div>
+ 
+        <div class="img-comida">
+          <img src="./imgs/poniendoSal.jpg" alt="comida">
+        </div>
+        <div class="subtitulo">
+          <strong>CONSULTORIO</strong>
+        </div>
+        <div class="desarrollo">
+          <p>Asesoramiento personalizado para niños y adultos o consulta familiar, a cargo de un equipo de profesionales con diferentes especialidades lorem200</p>
+        </div>
+
+        <div class="img-comida">
+          <img src="./imgs/conFrutilla.jpg" alt="conSal">
+        </div>
+        <div class="subtitulo">
+          <strong>CONSULTORIO</strong>
+        </div>
+        <div class="desarrollo">
+          <p>Asesoramiento personalizado para niños y adultos o consulta familiar, a cargo de un equipo de profesionales con diferentes especialidades lorem200</p>
+        </div>
+
+      </div>
+
     </section>
-    
-</body>
+  </body>
 </html>
