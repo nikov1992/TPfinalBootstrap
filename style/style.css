@@ -172,7 +172,7 @@
 }
 
 /*-----------------VERSION MOBILE!  */
-@media (width: 390px) {
+@media (min-width: 290px) {
   .HeadContainer .logo figure img {
     height: auto;
     width: 65%;
@@ -316,7 +316,19 @@
     justify-content: center;
     align-items: center; 
     text-align: center;
-    
+  }
+  .Conteiner4 .subtitulo2{
+    display: flex;
+    background: #96c29f;
+    letter-spacing: 3px;
+    margin-top: -20px;
+    width: 250px;
+    height: 55px;
+    font-size: 17px;
+    color: #ffff ;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
   }
 
   .Conteiner4 .img-comida img{
@@ -331,5 +343,27 @@
     text-align: justify;
     font-size: medium;
     margin-bottom: 15px;
+  }
+
+  /* SECCTION DE CONTACTO */
+  .contacto{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    margin-top: -50px;
+  }
+
+  .contacto .cabecera {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    color: #96c29f;
+    font-family: "Flashback", Sans-serif;
+    font-size: 60px;
+    letter-spacing: 3.5px;
+    text-align: center;
+    margin-bottom: -20px;
   }
 }
