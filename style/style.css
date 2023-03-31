@@ -28,7 +28,7 @@
   font-family: "textoIcons";
 }
 .nav-item a:hover{
-  transition: all 0.2s ease;
+  transition: all 0.05s ease;
   padding: 5px 10px;
   background-color: #de2889;
   color: #ffff;
