@@ -105,6 +105,11 @@
   font-weight: bold;
   font-size: 15px;
   margin-bottom: 100px;
+  margin-right: 30px;
+}
+
+.instagram img{
+    width: 3%;
 }
 
 .instagram a {
@@ -120,7 +125,7 @@
   background-color: #de2889;
   color: #ffff;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -220,6 +225,7 @@
   .titulo2 img {
     width: 8%;
   }
+  
   .titulo img {
     width: 30px;
   }
