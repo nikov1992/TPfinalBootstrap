@@ -2,7 +2,29 @@
   font-family: "textoIcons";
   src: url(../fonts/Best\ Love\ Italic\ DEMO.ttf);
 }
-
+@font-face {
+    font-family: "textoIcons";
+    src: url(../fonts/Best\ Love\ Italic\ DEMO.ttf);
+  }
+  
+  .nav-item a{
+    width: 100%;
+    color:#96c29f;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-family: "textoIcons";
+  }
+  .nav-item a:hover{
+    transition: all 0.2s ease;
+    padding: 5px 10px;
+    background-color: #de2889;
+    color: #ffff;
+    border-radius: 30px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
 .titulo {
   margin-top: 20px;
   display: flex;
