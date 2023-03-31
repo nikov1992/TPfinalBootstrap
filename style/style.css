@@ -398,7 +398,7 @@
 
   .cabecera {
     color: #96c29f;
-    font-family: "Flashback", Sans-serif;
+    font-family: titulo2;
     font-size: 80px;
     font-weight: 100px;
     letter-spacing: 3.5px;
@@ -469,7 +469,7 @@
     margin-top: 20px;
     width: 100%;
     color: #96c29f;
-    font-family: "Flashback", Sans-serif;
+    font-family: titulo2;
     font-size: 60px;
     letter-spacing: 3.5px;
     text-align: center;
