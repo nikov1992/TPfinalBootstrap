@@ -19,16 +19,16 @@
   src: url(./FUENTES_HN/flashback\ Demo.ttf);
 }
 
-.nav-item a{
+.nav-item a {
   width: 100%;
-  color:#96c29f;
+  color: #96c29f;
   font-size: 20px;
   border-radius: 30px;
   padding: 5px 10px;
   font-family: "textoIcons";
 }
-.nav-item a:hover{
-  transition: all 0.05s ease;
+.nav-item a:hover {
+  transition: all 0.5s ease;
   padding: 5px 10px;
   background-color: #de2889;
   color: #ffff;
@@ -182,7 +182,7 @@
   }
 }
 
-.pruebaGrid{
+.pruebaGrid {
   background-color: #f8f5de;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -192,7 +192,7 @@
   padding-right: 130px;
 }
 
-.pruebaGrid .titulo2{
+.pruebaGrid .titulo2 {
   margin-top: 20px;
   font-size: 70px;
 }
@@ -203,7 +203,7 @@
   padding: 20px;
 }
 
-.pruebaGrid .elemento1{
+.pruebaGrid .elemento1 {
   color: #5a5c5b;
   order: 2;
   margin-top: -320px;
@@ -220,10 +220,9 @@
   margin-top: 50px;
   margin-bottom: -35px;
   text-align: center;
-
 }
 
-.Conteiner4{
+.Conteiner4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
@@ -237,7 +236,7 @@
   justify-items: center;
 }
 
-.Conteiner4 .subtitulo{
+.Conteiner4 .subtitulo {
   display: flex;
   background: #96c29f;
   letter-spacing: 3px;
@@ -245,12 +244,12 @@
   width: 250px;
   height: 55px;
   font-size: 20px;
-  color: #ffff ;
+  color: #ffff;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   text-align: center;
 }
-.Conteiner4 .subtitulo2{
+.Conteiner4 .subtitulo2 {
   display: flex;
   background: #96c29f;
   letter-spacing: 3px;
@@ -258,16 +257,16 @@
   width: 250px;
   height: 55px;
   font-size: 17px;
-  color: #ffff ;
+  color: #ffff;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   text-align: center;
 }
 
-.Conteiner4 .img-comida img{
- width: 100%;
- height: auto; 
- border-radius: 10px;
+.Conteiner4 .img-comida img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .Conteiner4 .desarrollo {
@@ -278,13 +277,12 @@
   margin-bottom: 15px;
 }
 
-.contacto{
+.contacto {
   display: grid;
   margin-left: 200px;
   margin-right: 200px;
   padding: 20px;
-  margin-top: -50px;
-
+  margin-top: 10px;
 }
 
 .contacto .cabecera {
@@ -297,10 +295,10 @@
   margin-bottom: -20px;
 }
 
-
 /*-----------------VERSION MOBILE!--------------------  */
 @media (max-width: 390px) {
   .HeadContainer .logo figure img {
+    display: block;
     height: auto;
     width: 65%;
     border-radius: 10px;
@@ -383,8 +381,8 @@
     padding-left: 0px;
     padding-right: 0px;
   }
-  
-  .pruebaGrid .titulo2{
+
+  .pruebaGrid .titulo2 {
     margin-top: 0px;
     font-size: 50px;
   }
@@ -397,7 +395,7 @@
     margin-top: 20px;
     margin-bottom: -25px;
   }
-  
+
   .pruebaGrid .elemento1 {
     order: 1;
     margin: 0px;
@@ -424,7 +422,7 @@
     margin-bottom: -35px;
   }
 
-  .Conteiner4{
+  .Conteiner4 {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
@@ -434,7 +432,7 @@
     align-content: center;
   }
 
-  .Conteiner4 .subtitulo{
+  .Conteiner4 .subtitulo {
     display: flex;
     background: #96c29f;
     letter-spacing: 3px;
@@ -442,12 +440,12 @@
     width: 250px;
     height: 55px;
     font-size: 20px;
-    color: #ffff ;
+    color: #ffff;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     text-align: center;
   }
-  .Conteiner4 .subtitulo2{
+  .Conteiner4 .subtitulo2 {
     display: flex;
     background: #96c29f;
     letter-spacing: 3px;
@@ -455,16 +453,16 @@
     width: 250px;
     height: 55px;
     font-size: 17px;
-    color: #ffff ;
+    color: #ffff;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     text-align: center;
   }
 
-  .Conteiner4 .img-comida img{
-   width: 100%;
-   height: auto; 
-   border-radius: 10px;
+  .Conteiner4 .img-comida img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 
   .Conteiner4 .desarrollo {
@@ -476,7 +474,7 @@
   }
 
   /* SECCTION DE CONTACTO */
-  .contacto{
+  .contacto {
     display: grid;
     margin: 0px;
     padding: 20px;

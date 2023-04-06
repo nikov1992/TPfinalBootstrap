@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPNutricion</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/styleLibro.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="../imgs/logo.png" alt="Bootstrap" width="70" height="50" />
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#opciones"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--ENLACES DEL NAVBAR! -->
+      <div class="collapse navbar-collapse" id="opciones">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/conoceme.html">CONOCEME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/capacitaciones.html"
+              >CAPACITACIONES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/libro.html"
+              >LIBRO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#contacto">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+     <!-- INICIO DEL CUERPO -->
+     <div class="titulo">
+      <p class="SubTitulo1">LIBRO DE COMIDA REAL</p>
+      <img clas= "flor" src="../imgs/flor.png" alt="flor" />
+      <div class="textoTitulo">
+          <p class="SubTitulo2">Para toda la familia</p>
+        </div>
+      <img clas= "imgFlor" src="../imgs/flor.png" alt="flor" />
+      <p class="SubTitulo3">DE EDITORIAL PLANETA</p>
+      </div>
+
+      <!-- FOTOS LIBROS ! -->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner col-sm-8">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../imgs/libro4.jpg " class="rounded mx-auto d-block w-20" alt="libro1" id="imgCarrusel">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>LIBRO A TODO COLOR!</h5>
+              <p>Para grandes y chicos con recetas faciles e ingredientes saludables</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../imgs/libro2.jpg" class="rounded mx-auto d-block" alt="libro2" id="imgCarrusel">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>QUE COMER SALUDABLE SEA UNA FIESTA</h5>
+              <p>Si estas apurad@, andas cort@ de tiempo vas a tener en tus manos la solucion,</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../imgs/libro3.jpg" class="rounded mx-auto d-block" alt="libro3" id="imgCarrusel">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>INGREDIENTES, nutriTIPS, Y MAS SORPRESAS</h5>
+              <p>Algunas de las cosas que este libro te va a entregar</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- SECTION2 -->
+      <div class="section2">
+        <p>Mi nombre es <span style="color: #e71880;"><strong>Soledad Maria Peredo </strong></span> y les presento mi primer libro: “Comida real para toda la familia” . Un libro que te puede acompañar si tenes dudas sobre alimentación en cualquier etapa de la vida y si queres profundizar sobre nutrición apta para todo público, focalizando en la alimentación a base de comida real.<br>En estas páginas hay capítulos que que te invitan a reflexionar sobre la alimentación, a romper el paradigma de la dieta, entender por qué los ultraprocesados nos dañan la salud; profundiza en temas como alimentación vegetariana y vegana en niñez y adolescencia, selectividad alimentaria, alimentación y pobreza, entre otros.<br>También hay un recorrido de las recomendaciones nutricionales desde la gestación, primeras comidas y niñez. Luego hacemos foco en cómo podrás comenzar a cambiar tu alimentación, qué comprar, cómo organizarse, cómo se</p>
+
+        <p>consumen los alimentos de origen vegetal y luego recetas.<br>Vas a encontrar recetas y recomendaciones prácticas y detalladas para cocinar alimentos llenos de colores, sabores y nutrientes.<br>Te invito a leer mi primer libro donde encontrarás información actualizada sobre nutrición y herramientas prácticas para comenzar a cambiar o mejorar tu forma de alimentarte y la de tu familia.<br>Si sos profesional de la salud te va a ser de gran ayuda ya que el libro está apoyado en información científica y puede ser una gran herramienta para complementar tu trabajo.<br>El Libro tiene un reconocimiento internacional, fue Nominado en los Premios Gourmand World Bookcook Awards 2021-2022, una entrega de premios donde se anuncian los Mejores libros de Cocina del Mundo.</p>
+
+        <img src="../imgs/libro5.jpg" class="rounded mx-auto d-block w-60" alt="libro2">
+      </div>
+
+      <!-- FOOTER -->
+      <div class="container5">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item2"><a href="#" class="nav-link px-2 text-muted"></a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 Soledad Peredo Nutricion, derechos reservados Inc</p>
+        </footer>
+      </div>
+
+
+  </body>
+</html>
