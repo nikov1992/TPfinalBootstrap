@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$textoVerde: #96c29f;
+$textoRosa: #de2889;
+
+@font-face {
+    font-family: "titulo2";
+    src: url(/TPfinalBootstrap/fonts/Golden\ Bloom\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "textoIcons";
+    src: url(/TPfinalBootstrap/fonts/Best\ Love\ Italic\ DEMO.ttf);
+}
+
+.nav-item a {
+    width: 100%;
+    color: $textoVerde;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-family: "textoIcons";
+
+    &:hover {
+        transition: all 0.2s ease;
+        padding: 5px 10px;
+        background-color: $textoRosa;
+        color: #ffff;
+        border-radius: 30px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+.titulo {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+    p {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .textoTitulo {
+        width: auto;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .SubTitulo1 {
+        grid-column: 2;
+        font-weight: bold;
+        color: #96c29f;
+        font-size: 20px;
+        margin-bottom: -25px;
+    }
+
+    .SubTitulo2 {
+        font-family: titulo2;
+        color: #de2889;
+        font-size: 60px;
+    }
+
+    .SubTitulo3 {
+        grid-column: 2;
+        grid-row: 3;
+        font-weight: bold;
+        color: #96c29f;
+        font-size: 20px;
+        text-align: end;
+        margin-top: -25px;
+    }
+
+    img {
+        grid-row: 2;
+        width: 100%;
+    }
+}
+
+.section2 {
+    background-color: #96c29f;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 50%;
+    padding: 5%;
+    align-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    img {
+        width: 100%;
+    }
+
+    .titulo {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .SubTitulo1 {
+            grid-column: 2;
+            font-weight: bold;
+            color: #96c29f;
+            font-size: 15px;
+            margin-bottom: -25px;
+        }
+
+        img {
+            width: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .SubTitulo2 {
+            font-family: titulo2;
+            color: #de2889;
+            font-size: 31px;
+            margin: 15px;
+        }
+
+        .SubTitulo3 {
+            font-weight: bold;
+            color: #96c29f;
+            font-size: 15px;
+            text-align: end;
+            margin-top: -25px;
+        }
+    }
+
+    .p {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .section2 {
+        grid-template-columns: 1fr;
+        gap: 0px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .body img {
+        width: 10%;
+    }
+}

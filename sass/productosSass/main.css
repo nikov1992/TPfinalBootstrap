@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "titulo2";
+  src: url(/TPfinalBootstrap/fonts/Golden\ Bloom\ Regular.ttf);
+}
+@font-face {
+  font-family: "textoIcons";
+  src: url(/TPfinalBootstrap/fonts/Best\ Love\ Italic\ DEMO.ttf);
+}
+.nav-item a {
+  width: 100%;
+  color: #96c29f;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-family: "textoIcons";
+}
+.nav-item a:hover {
+  transition: all 0.2s ease;
+  padding: 5px 10px;
+  background-color: #de2889;
+  color: white;
+  border-radius: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.Contenido {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.Contenido .box {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Contenido .box img {
+  width: 60%;
+  padding: 30px;
+}
+.Contenido .precios {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.Contenido .texto {
+  display: grid;
+  line-height: 40px;
+  color: #5a5c5b;
+  font-family: sans-serif;
+  justify-items: center;
+  background-color: #fff;
+  width: 50%;
+  margin-top: -140px;
+  padding: 50px;
+}
+.Contenido .texto .SubTitulo3 {
+  font-weight: bold;
+  color: #de2889;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  text-align: start;
+}
+.Contenido .texto .SubTitulo4 {
+  font-family: titulo2;
+  color: #96c29f;
+  font-size: 60px;
+  margin-top: -30px;
+  padding-left: 100px;
+}
+.Contenido .texto .SubTitulo5 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #414342;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+.Contenido .texto .SubTitulo6 {
+  margin-top: 30px;
+  line-height: 30px;
+  
+}
+
+.titulo {
+  margin-top: 20px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.titulo .textoTitulo {
+  width: 150%;
+  margin-bottom: -60px;
+}
+.titulo .SubTitulo1 {
+  font-weight: bold;
+  color: white;
+  background-color: #96c29f;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  text-align: start;
+}
+.titulo .SubTitulo2 {
+  font-family: titulo2;
+  color: #de2889;
+  font-size: 60px;
+  margin-top: -50px;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.titulo3 {
+  color: #de2889;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.titulo4 {
+  font-weight: bold;
+  color: #686c6a;
+}
+
+.titulo8 {
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: bold;
+  color: #de2889;
+}
+
+.titulo7 {
+  font-size: small;
+  font-style: italic;
+  color: #686c6a;
+}
+
+@media (max-width: 390px) {
+  .titulo {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .titulo .textoTitulo {
+    width: 100%;
+  }
+  .titulo .SubTitulo1 {
+    font-weight: bold;
+    color: white;
+    background-color: #96c29f;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .titulo img {
+    width: 50px;
+  }
+  .titulo .SubTitulo2 {
+    font-family: titulo2;
+    color: #de2889;
+    font-size: 40px;
+  }
+  .Contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .Contenido .texto {
+    margin-top: -90px;
+    width: 80%;
+    text-align: center;
+    padding: 0px;
+  }
+  .Contenido .texto .SubTitulo3 {
+    font-weight: bold;
+    color: #de2889;
+    font-size: 20px;
+  }
+  .Contenido .texto .SubTitulo4 {
+    font-family: titulo2;
+    color: #96c29f;
+    font-size: 50px;
+    margin-top: -35px;
+    padding-left: 0px;
+  }
+  .Contenido .texto .SubTitulo5 {
+    margin-top: -1px;
+    font-size: 15px;
+    text-align: center;
+    color: #414342;
+    line-height: 25px;
+    font-family: sans-serif;
+  }
+  .Contenido .box img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .titulo3 {
+    margin-top: -30px;
+    color: #de2889;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .titulo4 {
+    font-weight: bold;
+    color: #686c6a;
+  }
+  .titulo8 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: bold;
+    color: #de2889;
+  }
+  .titulo7 {
+    font-size: small;
+    font-style: italic;
+    color: #686c6a;
+  }
+}/*# sourceMappingURL=main.css.map */

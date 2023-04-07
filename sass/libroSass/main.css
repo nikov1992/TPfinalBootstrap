@@ -6,13 +6,12 @@
 
 @font-face {
   font-family: "titulo2";
-  src: url(../fonts/Golden\ Bloom\ Regular.ttf);
+  src: url(/TPfinalBootstrap/fonts/Golden\ Bloom\ Regular.ttf);
 }
 @font-face {
   font-family: "textoIcons";
-  src: url(../fonts/Best\ Love\ Italic\ DEMO.ttf);
+  src: url(/TPfinalBootstrap/fonts/Best\ Love\ Italic\ DEMO.ttf);
 }
-
 .nav-item a {
   width: 100%;
   color: #96c29f;
@@ -25,7 +24,7 @@
   transition: all 0.2s ease;
   padding: 5px 10px;
   background-color: #de2889;
-  color: #ffff;
+  color: white;
   border-radius: 30px;
   font-size: 25px;
   cursor: pointer;
@@ -40,18 +39,15 @@
   align-items: center;
   margin-bottom: 40px;
 }
-
 .titulo p {
   width: 100%;
   margin: 0 auto;
 }
-
 .titulo .textoTitulo {
   width: auto;
   grid-column: 2;
   grid-row: 2;
 }
-
 .titulo .SubTitulo1 {
   grid-column: 2;
   font-weight: bold;
@@ -59,13 +55,11 @@
   font-size: 20px;
   margin-bottom: -25px;
 }
-
 .titulo .SubTitulo2 {
   font-family: titulo2;
   color: #de2889;
   font-size: 60px;
 }
-
 .titulo .SubTitulo3 {
   grid-column: 2;
   grid-row: 3;
@@ -75,13 +69,10 @@
   text-align: end;
   margin-top: -25px;
 }
-
 .titulo img {
   grid-row: 2;
   width: 100%;
 }
-
-/* SECTION2 */
 
 .section2 {
   background-color: #96c29f;
@@ -94,17 +85,14 @@
   align-items: flex-start;
   gap: 50px;
 }
-
 .section2 img {
   width: 100%;
 }
 
-/*-----------------VERSION MOBILE!--------------------  */
 @media (max-width: 390px) {
   img {
     width: 100%;
   }
-
   .titulo {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -116,26 +104,17 @@
     font-size: 15px;
     margin-bottom: -25px;
   }
-
   .titulo img {
     width: 50px;
     margin-left: 20px;
     margin-right: 20px;
   }
-
-  .p {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 20px;
-  }
-
   .titulo .SubTitulo2 {
     font-family: titulo2;
     color: #de2889;
     font-size: 31px;
     margin: 15px;
   }
-
   .titulo .SubTitulo3 {
     font-weight: bold;
     color: #96c29f;
@@ -143,7 +122,11 @@
     text-align: end;
     margin-top: -25px;
   }
-
+  .p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
   .section2 {
     grid-template-columns: 1fr;
     gap: 0px;
@@ -151,8 +134,7 @@
   .section2 img {
     width: 100%;
   }
-
   .body img {
     width: 10%;
   }
-}
+}/*# sourceMappingURL=main.css.map */
