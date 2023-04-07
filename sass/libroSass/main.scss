@@ -1,40 +1,7 @@
-* {
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 $textoVerde: #96c29f;
 $textoRosa: #de2889;
 
-@font-face {
-    font-family: "titulo2";
-    src: url(/TPfinalBootstrap/fonts/Golden\ Bloom\ Regular.ttf);
-}
-
-@font-face {
-    font-family: "textoIcons";
-    src: url(/TPfinalBootstrap/fonts/Best\ Love\ Italic\ DEMO.ttf);
-}
-
-.nav-item a {
-    width: 100%;
-    color: $textoVerde;
-    font-size: 20px;
-    border-radius: 30px;
-    padding: 5px 10px;
-    font-family: "textoIcons";
-
-    &:hover {
-        transition: all 0.2s ease;
-        padding: 5px 10px;
-        background-color: $textoRosa;
-        color: #ffff;
-        border-radius: 30px;
-        font-size: 25px;
-        cursor: pointer;
-    }
-}
+@import 'header';
 
 .titulo {
     margin: 0 auto;

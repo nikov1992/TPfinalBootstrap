@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: "titulo2";
-  src: url(/TPfinalBootstrap/fonts/Golden\ Bloom\ Regular.ttf);
+  src: url(/TPfinalCODERHOUSE/fonts/Golden\ Bloom\ Regular.ttf);
 }
 @font-face {
   font-family: "textoIcons";
-  src: url(/TPfinalBootstrap/fonts/Best\ Love\ Italic\ DEMO.ttf);
+  src: url(/TPfinalCODERHOUSE/fonts/Best\ Love\ Italic\ DEMO.ttf);
 }
 .nav-item a {
   width: 100%;
@@ -49,7 +49,7 @@
   justify-items: center;
   text-align: center;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
+  gap: 65px;
 }
 .Contenido .texto {
   display: grid;
@@ -88,7 +88,7 @@
 .Contenido .texto .SubTitulo6 {
   margin-top: 30px;
   line-height: 30px;
-  
+  text-align: start;
 }
 
 .titulo {
@@ -216,7 +216,6 @@
     margin-top: 20px;
   }
   .titulo3 {
-    margin-top: -30px;
     color: #de2889;
     font-weight: bold;
     font-style: italic;
