@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: "titulo2";
-  src: url(/TPfinalCODERHOUSE/fonts/Golden\ Bloom\ Regular.ttf);
+  src: url(../fonts/Golden\ Bloom\ Regular.ttf);
 }
 @font-face {
   font-family: "textoIcons";
-  src: url(/TPfinalCODERHOUSE/fonts/Best\ Love\ Italic\ DEMO.ttf);
+  src: url(../fonts/Best\ Love\ Italic\ DEMO.ttf);
 }
 .nav-item a {
   width: 100%;
